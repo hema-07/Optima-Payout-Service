@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: optima-payout
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: HE351544
+Implementation-Vendor-Id: com.wipro
+Build-Jdk: 1.8.0_144
+Implementation-URL: http://projects.spring.io/spring-boot/optima-payou
+ t/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+

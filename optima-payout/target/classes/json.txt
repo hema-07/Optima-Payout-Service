@@ -1,0 +1,30 @@
+debit < credit
+
+ {
+  "name": "John Smith",
+  "detail": {"first_name": "John","last_name": "Smith","age": "55"},
+  "debitDetails":[{"accountno":"4324454612329088","minBal":"100","currentBal":"800","AER":"2","standing":"50"},
+  					{"accountno":"3465782345620987","minBal":"50","currentBal":"400","AER":"2.5","standing":"0"},
+  						{"accountno":"1234432367433475","minBal":"50","currentBal":"500","AER":"1.5","standing":"0"}],
+  "creditDetails":[{"accountno":"1238544378879099","minDue":"150","Outstanding":"500","APR":"6"},
+  					{"accountno":"3456234523438864","minDue":"150","Outstanding":"600","APR":"8"},
+  							{"accountno":"1432565673463457","minDue":"50","Outstanding":"800","APR":"2"}]
+}
+
+
+
+
+debit > credit
+
+
+{
+  "name": "John Smith",
+  "detail": {"first_name": "John","last_name": "Smith","age": "55"},
+  "debitDetails":[{"accountno":"4324454612329088","minBal":"100","currentBal":"1800","AER":"2","standing":"50"},
+  					{"accountno":"3465782345620987","minBal":"50","currentBal":"900","AER":"2.5","standing":"0"},
+  						{"accountno":"1234432367433475","minBal":"50","currentBal":"900","AER":"1.5","standing":"0"}],
+  "creditDetails":[{"accountno":"1238544378879099","minDue":"150","Outstanding":"500","APR":"6"},
+  					{"accountno":"3456234523438864","minDue":"150","Outstanding":"600","APR":"8"},
+  							{"accountno":"1432565673463457","minDue":"50","Outstanding":"800","APR":"2"}]
+}
+

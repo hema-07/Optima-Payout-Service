@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.wipro.optimapayout.OptimaPayoutApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 7.894 sec <<< FAILURE! - in com.wipro.optimapayout.OptimaPayoutApplicationTests
+testResponse(com.wipro.optimapayout.OptimaPayoutApplicationTests)  Time elapsed: 1.796 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<404> but was:<200>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at com.wipro.optimapayout.OptimaPayoutApplicationTests.testResponse(OptimaPayoutApplicationTests.java:24)
+
